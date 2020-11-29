@@ -14,9 +14,11 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j7y17lte.mk
+    $(LOCAL_DIR)/bliss_j7y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j7y17lte-user \
-    lineage_j7y17lte-userdebug \
-    lineage_j7y17lte-eng
+    bliss_j7y17lte-user \
+    bliss_j7y17lte-userdebug \
+    bliss_j7y17lte-eng \
+    bliss_j7y17lte-neko \
+    bliss_j7y17lte-anime
