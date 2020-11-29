@@ -19,6 +19,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     bliss_j7y17lte-user \
     bliss_j7y17lte-userdebug \
-    bliss_j7y17lte-eng \
-    bliss_j7y17lte-neko \
-    bliss_j7y17lte-anime
+    bliss_j7y17lte-eng
