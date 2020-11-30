@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_j7y17lte.mk
+    $(LOCAL_DIR)/derp_j7y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    bliss_j7y17lte-user \
-    bliss_j7y17lte-userdebug \
-    bliss_j7y17lte-eng
+    derp_j7y17lte-user \
+    derp_j7y17lte-userdebug \
+    derp_j7y17lte-eng
