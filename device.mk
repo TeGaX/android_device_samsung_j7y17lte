@@ -90,6 +90,12 @@ PRODUCT_COPY_FILES += \
 # Properties
 -include $(DEVICE_PATH)/vendor_prop.mk
 
+# Face Unlock enable
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Launcher choose
+TARGET_LAUNCHER_CHOICE := lawnchair
+
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
