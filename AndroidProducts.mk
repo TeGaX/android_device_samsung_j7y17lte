@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_j7y17lte.mk
+    $(LOCAL_DIR)/evolution_j7y17lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_j7y17lte-user \
-    aosp_j7y17lte-userdebug \
-    aosp_j7y17lte-eng
+    evolution_j7y17lte-user \
+    evolution_j7y17lte-userdebug \
+    evolution_j7y17lte-eng
