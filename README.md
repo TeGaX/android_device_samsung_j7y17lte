@@ -1,27 +1,28 @@
-# TWRP for the Samsung Galaxy J7 2017
+# PitchBlack Recovery Project for the Samsung Galaxy J7 2017
 
 ### How to build ###
 
 ```bash
 # Create dirs
-$ mkdir twrp ; cd twrp
+$ mkdir pbrp ; cd pbrp
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+$ rrepo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_device_samsung_j7y17lte.git -b twrp device/samsung/j7y17lte
+$ git clone https://github.com/TeGaX/android_device_samsung_j7y17lte.git -b pitchblack device/samsung/j7y17lte
 
 # Sync
-$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
+$ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j16
 
 # Build
-$ mv device/samsung/j7y17lte/build_twrp.sh .
-$ . build_twrp.sh j7y17lte
+$ . build/envsetup.sh
+$ lunch omni_j7y17lte-eng
+$ mka recoveryimage
 ```
 
 ## Credits
-2020 @Astrako
+2020 @Astrako @Tenshi2112
 
 ## Contact
 Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A
