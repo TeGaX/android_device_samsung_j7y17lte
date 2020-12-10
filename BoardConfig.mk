@@ -104,3 +104,6 @@ TW_INCLUDE_FUSE_NTFS := true
 
 # Vendor separation
 TARGET_COPY_OUT_VENDOR := vendor
+
+# 64-bit apps enable
+TARGET_SUPPORTS_64_BIT_APPS := true
