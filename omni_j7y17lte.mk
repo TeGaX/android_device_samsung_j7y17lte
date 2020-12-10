@@ -16,16 +16,15 @@
 
 PRODUCT_RELEASE_NAME := j7y17lte
 
-
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_PACKAGES += \
 	charger_res_images \
 	charger
 
 PRODUCT_DEVICE := j7y17lte
-PRODUCT_NAME := omni_j7y17lte
+PRODUCT_NAME := pb_j7y17lte
 PRODUCT_MODEL := Samsung Galaxy J7 2017
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
