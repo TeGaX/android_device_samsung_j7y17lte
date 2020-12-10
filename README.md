@@ -7,7 +7,7 @@
 $ mkdir pbrp ; cd pbrp
 
 # Init repo
-$ rrepo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
+$ repo init --depth=1 -u git://github.com/PitchBlackRecoveryProject/manifest_pb.git -b android-10.0
 
 # Clone my local repo
 $ git clone https://github.com/TeGaX/android_device_samsung_j7y17lte.git -b pitchblack device/samsung/j7y17lte
