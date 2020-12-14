@@ -99,6 +99,12 @@ TARGET_LAUNCHER_CHOICE := lawnchair
 # Gapps defined
 TARGET_GAPPS_ARCH := arm64
 
+# Target Minimal Gapps as possible
+TARGET_MINIMAL_APPS := true
+
+# Support Google Recorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
