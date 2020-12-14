@@ -96,6 +96,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Launcher choose
 TARGET_LAUNCHER_CHOICE := lawnchair
 
+# Gapps defined
+TARGET_GAPPS_ARCH := arm64
+
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
