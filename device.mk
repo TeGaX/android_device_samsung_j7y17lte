@@ -93,6 +93,9 @@ PRODUCT_COPY_FILES += \
 # Face Unlock support (mostly that does)
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Gapps defined
+TARGET_GAPPS_ARCH := arm64
+
 # Inherit from common
 $(call inherit-product, device/samsung/universal7870-common/device-common.mk)
 
